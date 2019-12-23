@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B522F6DD23B13DBD00307B81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B522F6DC23B13DBD00307B81 /* AppDelegate.swift */; };
 		B522F6DF23B13DBD00307B81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B522F6DE23B13DBD00307B81 /* SceneDelegate.swift */; };
-		B522F6E123B13DBD00307B81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B522F6E023B13DBD00307B81 /* ViewController.swift */; };
+		B522F6E123B13DBD00307B81 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B522F6E023B13DBD00307B81 /* MapVC.swift */; };
 		B522F6E423B13DBD00307B81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B522F6E223B13DBD00307B81 /* Main.storyboard */; };
 		B522F6E623B13DC500307B81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B522F6E523B13DC500307B81 /* Assets.xcassets */; };
 		B522F6E923B13DC500307B81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B522F6E723B13DC500307B81 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		B522F6D923B13DBD00307B81 /* Pixel City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixel City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B522F6DC23B13DBD00307B81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B522F6DE23B13DBD00307B81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B522F6E023B13DBD00307B81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B522F6E023B13DBD00307B81 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		B522F6E323B13DBD00307B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B522F6E523B13DC500307B81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B522F6E823B13DC500307B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,47 @@
 		B522F6DB23B13DBD00307B81 /* Pixel City */ = {
 			isa = PBXGroup;
 			children = (
+				B522F6F323B1412D00307B81 /* Utilities */,
+				B522F6F223B1411E00307B81 /* Extensions */,
+				B522F6F123B1411400307B81 /* View */,
+				B522F6F023B1410300307B81 /* Controller */,
 				B522F6DC23B13DBD00307B81 /* AppDelegate.swift */,
 				B522F6DE23B13DBD00307B81 /* SceneDelegate.swift */,
-				B522F6E023B13DBD00307B81 /* ViewController.swift */,
 				B522F6E223B13DBD00307B81 /* Main.storyboard */,
 				B522F6E523B13DC500307B81 /* Assets.xcassets */,
 				B522F6E723B13DC500307B81 /* LaunchScreen.storyboard */,
 				B522F6EA23B13DC500307B81 /* Info.plist */,
 			);
 			path = "Pixel City";
+			sourceTree = "<group>";
+		};
+		B522F6F023B1410300307B81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B522F6E023B13DBD00307B81 /* MapVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B522F6F123B1411400307B81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B522F6F223B1411E00307B81 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B522F6F323B1412D00307B81 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B522F6E123B13DBD00307B81 /* ViewController.swift in Sources */,
+				B522F6E123B13DBD00307B81 /* MapVC.swift in Sources */,
 				B522F6DD23B13DBD00307B81 /* AppDelegate.swift in Sources */,
 				B522F6DF23B13DBD00307B81 /* SceneDelegate.swift in Sources */,
 			);
